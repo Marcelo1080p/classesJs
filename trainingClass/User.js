@@ -9,11 +9,12 @@ class User  {
         if( this.email === email && this.password === password) {
             console.log("Login realizado com sucesso!");
         } else {
-            console.log("Erro ao tentar logar!");
+            console.log("Erro ao tentar logar! senha ou email incorretos!!");
         }
     }
 }
 
 const marcelo = new User("marcelo", "juniooor.2015@gmail.com","123");
 
-console.log(marcelo.login("celinho@gmail.com", "hahaha"))
+console.log(marcelo.login("juniooor.2015@gmail.com", "123"));
+
