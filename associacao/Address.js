@@ -13,9 +13,4 @@ class Address {
 }
 
 
-const pessoa = new Address('Horto Florestal', '94', 'Santa Emilia', 'Embu das artes', 'São Paulo');
-
-
-console.log(pessoa.fullAddress())
-
-export default Address;
+module.exports =  Address;
