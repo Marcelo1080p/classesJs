@@ -1,8 +1,8 @@
 const Property = require("./Property");
 
 class House extends Property {
-    constructor( number, area, price ) {
-        super( number, area, price )
+    constructor( number, area, price, typeProperty) {
+        super( number, area, price, typeProperty )
     }
 }
 
