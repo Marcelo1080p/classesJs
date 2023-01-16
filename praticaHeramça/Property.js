@@ -12,7 +12,7 @@ class Property {
     }
 
     priceAreaSquared() {
-        return `O valor do M² da propriedade é ${this.price / this.area}`;
+        return `O valor do M² da propriedade é ${ Math.floor(this.price / this.area)}`;
     }
 }
 
